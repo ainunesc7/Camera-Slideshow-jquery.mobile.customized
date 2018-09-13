@@ -4,7 +4,7 @@
     org. by dimpost.com 
 ----------------------------------------------->
 <!--  Camera_Slideshow Styles  -->
-<link rel="stylesheet" id="camera-css" href="http://project.dimpost.com/camera-slideshow/css/camera.css" type="text/css" media="all" />
+<link rel="stylesheet" id="camera-css" https://cdn.rawgit.com/ainunesc7/Camera-Slideshow-jquery.mobile.customized/3da6394e/camera-slideshow.css" type="text/css" media="all" />
 <!-- Camera Slideshow Scripts -->
 <script type='text/javascript' src='https://code.jquery.com/jquery-2.1.4.min.js'></script>
 <script type='text/javascript' src='https://cdn.rawgit.com/ainunesc7/Camera-Slideshow-jquery.mobile.customized/1be75db5/jQuery%20v2.1.4.js'></script>
