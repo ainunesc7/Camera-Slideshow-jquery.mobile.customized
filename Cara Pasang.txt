@@ -1,0 +1,85 @@
+<!---------------------------------------------
+    Blogger Slideshow Widget by
+    https://kajian-sunnah-online.blogspot.com/
+    org. by dimpost.com 
+----------------------------------------------->
+<!--  Camera_Slideshow Styles  -->
+<link rel="stylesheet" id="camera-css" href="http://project.dimpost.com/camera-slideshow/css/camera.css" type="text/css" media="all" />
+<!-- Camera Slideshow Scripts -->
+<script type='text/javascript' src='https://code.jquery.com/jquery-2.1.4.min.js'></script>
+<script type='text/javascript' src='https://cdn.rawgit.com/ainunesc7/Camera-Slideshow-jquery.mobile.customized/1be75db5/jQuery%20v2.1.4.js'></script>
+<script type='text/javascript' src='https://cdn.rawgit.com/ainunesc7/Camera-Slideshow-jquery.mobile.customized/1be75db5/jQuery%20Mobile%20v1.3.js'></script>
+<script type='text/javascript' src='https://cdn.rawgit.com/ainunesc7/Camera-Slideshow-jquery.mobile.customized/1be75db5/camera%20slideshow%20scripts%20camera%20min.js'></script>
+<script type='text/javascript' src='https://cdn.rawgit.com/ainunesc7/Camera-Slideshow-jquery.mobile.customized/1be75db5/jquery-easing%201.3%20jquery.easing.js'></script>
+<script type='text/javascript'>
+jQuery(function() {
+    jQuery('#camera_wrap_1').camera({
+        time: 2500, // milliseconds between the end of the sliding effect and the start of the nex one
+        transPeriod: 1200, // length of the sliding effect in milliseconds
+        thumbnails: false, // thumnails & tooltip is controlled by it
+        pagination: true, // only when "pagination" is set to "false" thumbnails will be visible
+        fx: 'curtainTopLeft, curtainTopRight, curtainBottomLeft, curtainBottomRight, curtainSliceLeft, curtainSliceRight, blindCurtainTopLeft, blindCurtainTopRight, blindCurtainBottomLeft, blindCurtainBottomRight, blindCurtainSliceBottom, blindCurtainSliceTop, stampede, mosaic, mosaicReverse, mosaicRandom, mosaicSpiral, mosaicSpiralReverse, topLeftBottomRight, bottomRightTopLeft, bottomLeftTopRight, bottomLeftTopRight, scrollLeft, scrollRight, scrollHorz, scrollBottom, scrollTop', // transition effects
+        hover: false, // Pause on hover
+        height: '50%' // slideshow height (50% is default)
+    });
+});
+</script>
+<style type="text/css">
+.fluid_container {
+    margin: 0 auto;
+    /* aling centered */
+    width: 100%;
+    max-width: 900px;
+    overflow: hidden;
+}
+
+
+/* Blogger CSS Conflict Fix */
+
+.camera_pag_ul {
+    border: none !important;
+    background: none !important;
+}
+
+.camera_pag_ul li {
+    float: inherit !important;
+    padding: inherit !important;
+}
+
+.camera_pag_ul {
+    margin: 0 !important;
+    border: 0 !important;
+}
+</style>
+<div class="fluid_container">
+    <!-- camera_slideshow camera_wrap-->
+    <div class="camera_wrap" id="camera_wrap_1">
+        <div data-link="http://www.dimpost.com/" data-thumb="http://project.dimpost.com/camera-slideshow/images/slides/thumbs/1.jpg" data-src="http://project.dimpost.com/camera-slideshow/images/slides/1.jpg">
+            <div class="camera_caption fadeFromBottom">
+                Camera is a responsive/adaptive slideshow. <em>Try to resize the browser window</em>
+            </div>
+        </div>
+        <div data-link="http://www.dimpost.com/" data-thumb="http://project.dimpost.com/camera-slideshow/images/slides/thumbs/2.jpg" data-src="http://project.dimpost.com/camera-slideshow/images/slides/2.jpg">
+            <div class="camera_caption fadeFromBottom">
+                It uses a light version of jQuery mobile, <em>navigate the slides by swiping with your fingers</em>
+            </div>
+        </div>
+        <div data-link="http://www.dimpost.com/" data-thumb="http://project.dimpost.com/camera-slideshow/images/slides/thumbs/3.jpg" data-src="http://project.dimpost.com/camera-slideshow/images/slides/3.jpg">
+            <div class="camera_caption fadeFromBottom">
+                <em>It's completely free</em> (even though a donation is appreciated)
+            </div>
+        </div>
+        <div data-link="http://www.dimpost.com/" data-thumb="http://project.dimpost.com/camera-slideshow/images/slides/thumbs/4.jpg" data-src="http://project.dimpost.com/camera-slideshow/images/slides/4.jpg">
+            <div class="camera_caption fadeFromBottom">
+                Camera slideshow provides many options <em>to customize your project</em> as more as possible
+            </div>
+        </div>
+        <div data-link="http://www.dimpost.com/" data-thumb="http://project.dimpost.com/camera-slideshow/images/slides/thumbs/5.jpg" data-src="http://project.dimpost.com/camera-slideshow/images/slides/5.jpg">
+            <div class="camera_caption fadeFromBottom">
+                It supports captions, HTML elements and videos.
+            </div>
+        </div>
+    </div>
+    <!-- #camera_wrap_1 -->
+</div>
+<!-- .fluid_container -->
